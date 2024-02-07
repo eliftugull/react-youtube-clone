@@ -1,8 +1,22 @@
-# React + Vite
+# React YouTube Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Bu proje, bir YouTube klonu oluşturmayı amaçlayan basit bir React uygulamasıdır. 
+- Temel olarak, kullanıcılara videoları görüntüleme, arama yapma ve video detaylarını inceleme imkanı sağlar.
+-  Proje, YouTube API'si ile etkileşimde bulunarak videoların alınmasını ve kullanıcı deneyimini geliştirmeyi hedefler.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+# Özellikler
+- Ana sayfa, video detayları, arama sonuçları gibi farklı sayfalar.
+- Kategori bazlı video listeleme.
+- Video detay sayfası, oyuncular, videolar ve diğer bilgiler.
+
+
+
+# Kullanılan Teknolojiler ve Paketler:
+
+- React: Kullanıcı arayüzü oluşturmak ve yönetmek için.
+- React Router: Sayfalar arasında gezinme ve URL tabanlı yönlendirme için.
+- Axios: YouTube API ile HTTP istekleri yapmak için.
+- Tailwind CSS: Hızlı ve kolay bir şekilde stil uygulamak için.
+
